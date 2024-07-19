@@ -1,0 +1,333 @@
+@media screen and (max-width: 420px){
+    .navbar {
+        width: 100%;
+        height: 16vh;
+        /* display: none; */
+    }
+    .logo{
+        letter-spacing: 4px;
+        padding: 20px 20px;
+        font-size: 20px !important;
+    }
+    .nav-links {
+        width: 98%;
+        display: flex;
+    }
+    .link> a {
+        padding: 10px 16px;
+        letter-spacing: 0px;
+        font-size: 10px;
+        font-family: Montserrat, sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    .container-1 {
+        background-color: #f4511e;
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .company {
+        color: white;
+        font-family: Lato, sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        letter-spacing: 2px;
+        padding-top: 0px;
+        padding-bottom: 4px;
+    }
+    .blabla {
+        font-family: Lato, sans-serif;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: lighter;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-bottom: 12px;
+    }
+    .mail {
+        display: block;
+        width: 260px;
+        height: 6vh;
+        padding: 8px;
+        border-radius: 3px;
+        border-style: none;
+        cursor: pointer;
+        font-family: Lato, sans-serif;
+        letter-spacing: 1px;
+    }
+    .subscribe {
+        display: block;
+        width: 78px;
+        height: 6vh;
+        background-color: rgb(207, 75, 75);
+        color: white;
+        padding: 8px;
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+        font-family: Lato, sans-serif;
+        letter-spacing: 0px;
+    }
+    .container-2 {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    } 
+    .company {
+        color: white;
+        font-family: Lato, sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        letter-spacing: 2px;
+        padding-top: 0px;
+        padding-bottom: 4px;
+    }
+    .cont2-box1 {
+        width: 100%;
+    }  
+    .about-company-pg {
+        font-size: 22px;
+        color: #303030;
+        padding-top: 39px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+        font-weight: 600;
+        font-family: Montserrat, sans-serif;
+    } 
+    .sent-2 {
+        font-size: 13px;
+        color: #303030;
+        padding-bottom: 45px;
+        padding-left: 38px;
+        font-family: Montserrat, sans-serif;
+        line-height: 18px;
+        font-weight: 200;
+        padding-bottom: 19px;
+    }
+    .sent-3 {
+        font-size: 13px;
+        padding-left: 40px;
+        color: #8a8787;
+        padding-bottom: 35px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 200;
+        line-height: 22px;
+    }
+    .cont2-btn {
+        padding-left: 40px;
+    }
+    .cont2-box2 {
+        width: 100%;
+    }
+    .box2-1 {
+        /* width: 80%; */
+        /* margin: auto; */
+        display: flex;
+        padding-top: 38px;
+        padding-bottom: 20px;
+        padding-left: 140px;
+        gap: 18px;
+        align-items: flex-end;
+    }
+    .cont2-box2-verLine1 {
+        width: 3%;
+        height: 19vh;
+        padding-top: 20px;
+        background-color: #f4511e;
+        border-radius: 3px;
+    }
+    .cont2-box2-verLine2 {
+        width: 3%;
+        height: 28vh;
+        background-color: #f4511e;
+        border-radius: 3px;
+    }
+    .cont2-box2-verLine3 {
+        width: 3%;
+        height: 40vh;
+        background-color: #f4511e;
+        border-radius: 3px;
+    }
+    .cont2-box2-verLine4 {
+        width: 3%;
+        height: 56vh;
+        background-color: #f4511e;
+        border-radius: 3px;
+    }
+    .btn {
+        width: 28%;
+        height: 8vh;
+        font-family: Montserrat, sans-serif;
+        color: #303030;
+        border-radius: 6px;
+        border: 1px solid grey;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .container-3 {
+        width: 100%;
+        height: auto;
+        background-color: rgb(241, 243, 243);
+        display: flex;
+        flex-direction: column;
+    }
+    .cont3-box1 {
+        width: 100%;
+        color: #f4511e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-earth-americas {
+        padding-left: 0px;
+      
+    }
+    .cont3-box2 {
+        width: 100%;
+    }
+    .cont3-ourvalues {
+        font-size: 22px;
+        padding-top: 52px;
+        padding-bottom: 35px;
+    }
+    .cont3-mission {
+        font-size: 13px;
+        padding-left: 70px;
+        line-height: 21px;
+        padding-bottom: 11px;
+    }
+    .cont3-vision {
+        padding-top: 20px;
+        font-size: 13px;
+        padding-bottom: 23px;
+        line-height: 23px;
+    }
+    .container-4 {
+        height: auto;
+    }
+    .cont4-sent {
+        line-height: 39px;
+    }
+    .cont4-sent1 {
+        font-size: 22px;
+    }
+    .cont4-sent2 {
+        font-size: 17px;
+    }
+    .cont4-service-item1 {
+        width: 100%;
+        height: auto;
+        /* display: flex; */
+        justify-content: space-evenly;
+    }
+    .fa-power-off,
+    .fa-heart,
+    .fa-lock,
+    .fa-leaf,
+    .fa-certificate,
+    .fa-wrench{
+        font-size: 35px;
+    }
+    .cont4-middle-word {
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+    .cont4-last-word {
+        font-size: 12px;
+    }
+    .container-5 {
+        height: auto;
+    }
+    .cont5-sent{
+        height: auto;
+    }
+    .cont5-sent1 {
+        font-size: 20px;
+        padding-top: 46px;
+        padding-bottom: 18px;
+    }
+    .cont5-sent2{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .cont5-pics{
+        height: auto;
+    }
+    .cont5-box-pic {
+        width: 80%;
+    }
+    .cont5-box-pic > .sent2 {
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+    .cont5-sent3 {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .customers-comment {
+        height: auto;
+        gap: 38px;
+    }
+    .comment-box {
+        padding: 20px;
+        width: 56%;
+        padding: 20px 0px;
+    }
+    .container-6 {
+        height: auto;
+    }
+    .cont6-sent1-pricing {
+        font-size: 20px;
+        padding-top: 33px;
+        padding-bottom: 8px;
+    }
+    .cont6-pricing-box{
+        height: auto;
+    }
+    .cont6-pricing-box > .box {
+        width: 60%;
+        margin: 14px 0px;
+    }
+    .cont6-box-box1 {
+        height: 10vh;
+    }
+    .cont6-box-box2 {
+        height: 32vh;
+    }
+    .signup-btn {
+        height: 6vh;
+        width: 36%;
+    }
+    .container-7{
+        height: auto;
+        padding: 20px 0px;
+    }
+    .cont7-box1 {
+        width: 82%;
+        line-height: 25px;
+    }
+    .sent1-contact {
+        font-size: 22px;
+        padding-top: 22px;
+    }
+    .cont7-box2 {
+        width: 80%;
+    }
+    .send-btn {
+        height: 4vh;
+        width: 21%;
+    }
+    .container-8{
+        height: auto;
+    }
+    footer{
+        height: auto;
+        padding: 20px 0px;
+    }
+}
